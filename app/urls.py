@@ -9,7 +9,6 @@ from rest_framework.routers import DefaultRouter
 
 from core.views import AutorViewSet, CategoriaViewSet, EditoraViewSet, UserViewSet
 
-
 router = DefaultRouter()
 
 router.register(r'autor', AutorViewSet)
